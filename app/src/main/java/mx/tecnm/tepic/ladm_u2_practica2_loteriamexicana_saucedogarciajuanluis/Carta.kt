@@ -57,6 +57,7 @@ class Carta(a:MainActivity ,iView:ImageView, imP :ImageView,carIma:Array<Int>,ca
                          }
                     }
                     delay(2000)
+                    mp.release()
                }
                 imP.setImageResource(cartaImagen[arregloDes[53]])
                 iView.setImageResource(0)
